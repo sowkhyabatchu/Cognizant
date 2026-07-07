@@ -3,12 +3,9 @@ class Singleton:
 
     def __new__(cls):
         if cls._instance is None:
+            print("Creating Singleton Object...")
             cls._instance = super().__new__(cls)
         return cls._instance
 
-obj1 = Singleton()
-obj2 = Singleton()
-
-print(obj1)
-print(obj2)
-print(obj1 is obj2)
+    def show_message(self):
+        print("This is the Singleton object.")
