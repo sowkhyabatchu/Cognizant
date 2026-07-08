@@ -5,7 +5,7 @@ This assignment demonstrates SQL Window Functions: ROW_NUMBER(), RANK(), DENSE_R
 File
 Assignment3_SQL_WindowFunctions/
 ├── window_functions.sql   ← All SQL: table creation, data, all queries
-└── README.md
+└── README.md 
 What is a Window Function?
 A window function performs a calculation across a set of rows related to the current row (the "window"), without collapsing them into a single output row. Unlike GROUP BY, each source row still appears in the result.
 
