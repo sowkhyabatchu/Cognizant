@@ -12,3 +12,4 @@ public class Item
 
     public ProductCategory? Category { get; set; }
 }
+ 
